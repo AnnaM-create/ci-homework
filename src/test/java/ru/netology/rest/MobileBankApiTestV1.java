@@ -7,7 +7,6 @@ import static io.restassured.RestAssured.given;
 class MobileBankApiTestV1 {
     @Test
     void shouldReturnDemoAccounts() {
-        org.junit.jupiter.api.Assertions.fail("Намеренное падение теста для проверки CI");
         // Given - When - Then
         // Предусловия
         given()
